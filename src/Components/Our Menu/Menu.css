@@ -1,0 +1,40 @@
+.menu-item {
+    display: flex;
+   
+   
+    overflow: hidden;
+  }
+  
+  .menu-item-image img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .menu-item-details {
+    padding: 20px;
+  }
+  
+  .menu-item-details h2 {
+    margin-top: 0;
+  }
+  
+  .menu-item-details .price {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .menu-item-details .description {
+    margin-bottom: 10px;
+  }
+  
+  .menu-item-details .spice-level {
+    font-style: italic;
+    color: #4c4c4c;
+    font-size: 17px;
+  }
+  
+  .menu-item-details button {
+    margin-top: 10px;
+  }
+  
